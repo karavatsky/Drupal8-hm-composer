@@ -11,6 +11,10 @@
     ],
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/karavatsky/drupal-core"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
@@ -18,7 +22,7 @@
     "require": {
         "composer/installers": "^1.0.20",
         "drupal-composer/drupal-scaffold": "^2.0.1",
-        "drupal/core": "~8.0",
+        "drupal/core": "8.1.x-dev",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0"
     },
