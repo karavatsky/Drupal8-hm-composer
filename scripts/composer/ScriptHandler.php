@@ -43,7 +43,7 @@ class ScriptHandler {
     }
 
     if ($fs->exists($root . '/sites/default/settings.php')) {
-      $code = "\n" . '$config[\'system.site\'][\'mail\'] = \'ihar_karavatski@epam.com\'' . "\n";
+      $code = "\n" . '$config[\'system.site\'][\'mail\'] = \'ihar_karavatski@epam.com\';' . "\n";
       file_put_contents($root . '/sites/default/settings.php', $code, FILE_APPEND);
     }
 
